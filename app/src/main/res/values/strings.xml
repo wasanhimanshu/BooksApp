@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BooksApp</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="saved">Saved</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="empty_text_view">Start Exploring Your"\n"Favourite Books!!</string>
+    <string name="hnt_search">Search Here!!</string>
+    <string name="choose_an_action">Choose an Action</string>
+    <string name="delete_all">Delete All Books</string>
+    <string name="delete_dialog_msg">Are you Sure you want to Delete All Books?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="quote">Start Saving your favourite Books Here!!</string>
+    <string name="do_read"> Do read the Book and Tell me How much you Liked it.</string>
+    <string name="amazing_book">Hey You got to Read This Amazing Book…"\n"</string>
+    <string name="notes">Notes</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="summary">Enter Summary</string>
+    <string name="save">Save</string>
+    <string name="ad_notes">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="Notes_not_Updated">Note Not Updated</string>
+    <string name="Notes_Updated">Notes Updated Successfully</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg1">Are you Sure you want to Delete All Notes?</string>
+    <string name="notes_helper">Start Making Notes for Books you Have Read..</string>
+
+
+</resources>

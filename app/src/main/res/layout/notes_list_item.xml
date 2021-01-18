@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="2dp"
+        android:background="@drawable/cardview"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:orientation="vertical">
+    <TextView
+        android:id="@+id/notes_list_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"  />
+
+    <TextView
+        android:id="@+id/notes_list_item_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:maxLines="3"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/black"  />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+      </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
